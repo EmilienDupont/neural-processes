@@ -60,7 +60,7 @@ class SineData(Dataset):
 
 
 def mnist(batch_size=16, size=28, path_to_data='../../mnist_data'):
-    """MNIST dataloader with (28, 28) images.
+    """MNIST dataloader.
 
     Parameters
     ----------
@@ -88,15 +88,22 @@ def mnist(batch_size=16, size=28, path_to_data='../../mnist_data'):
     return train_loader, test_loader
 
 
-def celeba(batch_size=16, size=32, crop=89,
-           path_to_data='/data/ziz/not-backed-up/datasets-ziz-all/processed_data/CelebA/celebA',
+def celeba(batch_size=16, size=32, crop=89, path_to_data='../celeba_data',
            shuffle=True):
-    """
+    """CelebA dataloader.
+
+    Parameters
+    ----------
+    batch_size : int
+
     size : int
-        Size of image.
+        Size (height and width) of each image.
 
     crop : int
         Size of center crop. This crop happens *before* the resizing.
+
+    path_to_data : string
+        Path to CelebA data files.
     """
     transform = transforms.Compose([
         transforms.CenterCrop(crop),
@@ -117,8 +124,14 @@ class CelebADataset(Dataset):
         """
         Parameters
         ----------
+        path_to_data : string
+            Path to CelebA data files.
+
         subsample : int
             Only load every |subsample| number of images.
+
+        transform : torchvision.transforms
+            Torchvision transforms to be applied to each image.
         """
         self.img_paths = glob.glob(path_to_data + '/*.jpg')[::subsample]
         self.transform = transform
