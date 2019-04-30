@@ -11,13 +11,13 @@ best practices defined in [Empirical Evaluation of Neural Process Objectives](ht
 
 #### Image inpainting
 
-<img src="https://github.com/EmilienDupont/neural-processes/raw/master/imgs/celeba.gif" width="300">
+<img src="https://github.com/EmilienDupont/neural-processes/raw/master/imgs/celeba.gif" width="256">
 
 ## Usage
 
 Simple example of training a neural process on functions or images.
 
-```
+```python
 import torch
 from neural_process import NeuralProcess, NeuralProcessImg
 from training import NeuralProcessTrainer
