@@ -39,7 +39,7 @@ np_trainer = NeuralProcessTrainer(device, neuralprocess, optimizer,
 np_trainer.train(data_loader, epochs=30)
 ```
 
-#### 1D functions
+### 1D functions
 
 For a detailed tutorial on training and using neural processes on 1d functions, see
 the notebook `example-1d.ipynb`.
