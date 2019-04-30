@@ -1,0 +1,1 @@
+{"img_size": [3, 32, 32], "h_dim": 512, "num_context_range": [3, 200], "z_dim": 512, "batch_size": 16, "dataset": "celeba", "epochs": 100, "r_dim": 512, "lr": 4e-05, "num_extra_target_range": [0, 200]}

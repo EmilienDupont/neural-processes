@@ -1,0 +1,1 @@
+{"img_size": [1, 28, 28], "h_dim": 256, "num_context_range": [3, 200], "z_dim": 256, "batch_size": 16, "epochs": 100, "r_dim": 256, "lr": 5e-05, "num_extra_target_range": [0, 200]}
