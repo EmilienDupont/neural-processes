@@ -54,7 +54,7 @@ Note, to train on CelebA you will have to download the data from [here](http://m
 
 ## Acknowledgements
 
-Several people at [OxCSML](https://twitter.com/oxcsml) helped me understand various aspects of neural processes, especially [Kaspar Martens](http://csml.stats.ox.ac.uk/people/martens/), Jef Ton and [Hyunjik Kim](http://csml.stats.ox.ac.uk/people/kim/).
+Several people at [OxCSML](https://twitter.com/oxcsml) helped me understand various aspects of neural processes, especially [Kaspar Martens](http://csml.stats.ox.ac.uk/people/martens/), [Jin Xu](http://csml.stats.ox.ac.uk/people/xu/), Jef Ton and [Hyunjik Kim](http://csml.stats.ox.ac.uk/people/kim/).
 
 Useful resources:
 * Kaspar's [blog post](https://kasparmartens.rbind.io/post/np/)
