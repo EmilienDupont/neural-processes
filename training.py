@@ -63,7 +63,7 @@ class NeuralProcessTrainer():
 
                 # Sample number of context and target points
                 num_context = randint(*self.num_context_range)
-                num_extra_target = randint(0, self.num_extra_target_range[1] - num_context)
+                num_extra_target = randint(*self.num_extra_target_range)
 
                 # Create context and target points and apply neural process
                 if self.is_img:
