@@ -5,13 +5,9 @@ best practices defined in [Empirical Evaluation of Neural Process Objectives](ht
 
 ## Examples
 
-#### Function regression
-
-<img src="https://github.com/EmilienDupont/neural-processes/raw/master/imgs/np_1d.gif" width="400">
-
-#### Image inpainting
-
-<img src="https://github.com/EmilienDupont/neural-processes/raw/master/imgs/celeba.gif" width="256">
+| Function Regression | Image inpainting |
+|:---------------------:|:------------------:|
+| <img src="https://github.com/EmilienDupont/neural-processes/raw/master/imgs/np_1d.gif"> | <img src="https://github.com/EmilienDupont/neural-processes/raw/master/imgs/celeba.gif"> |
 
 ## Usage
 
